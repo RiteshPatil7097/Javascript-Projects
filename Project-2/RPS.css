@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+h1{
+    background-color: black;
+    color: aliceblue;
+    height: 5rem;
+    line-height:5rem ;  /*vertical alignment*/
+}
+
+.choice{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.choice:hover{
+    opacity: 0.7;   
+    cursor: pointer;
+    background: color #081b31;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;  /* any obj inside box get arranged properly */
+    border-radius: 90%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    gap: 3rem; 
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 2rem;
+}
+#user-score , 
+#computer-score{
+    font-size: 3rem;
+}
+
+#msg{
+    font-size: 2rem;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    display: inline;
+    padding: 1rem;
+    margin-top: 5rem;
+    border-radius: 5rem;
+}
